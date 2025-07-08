@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/2-form.css" />
+  </head>
+  <body>
+    <a href="./index.html">Back</a>
+    <div class="form-wrapper">
+      <form class="feedback-form" autocomplete="off">
+        <label class="form-label">
+          Email
+          <input
+            type="email"
+            name="email"
+            class="email-input"
+            placeholder=" "
+            autofocus
+          />
+        </label>
+        <label class="form-label">
+          Message
+          <textarea name="message" rows="8" class="message-input"></textarea>
+        </label>
+        <button type="submit" class="submit-btn">Submit</button>
+      </form>
+    </div>
+    <script type="module" src="./js/2-form.js"></script>
+  </body>
+</html>
