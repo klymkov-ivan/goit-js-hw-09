@@ -1,5 +1,10 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: 'Montserrat', sans-serif;
+  color: #2e2f42;
 }
 
 .form-wrapper {
@@ -12,6 +17,11 @@ body {
   border-radius: 4px;
   width: 360px;
   height: 40px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  padding: 8px 16px;
 }
 
 .email-input:hover {
@@ -19,10 +29,23 @@ body {
   border-radius: 4px;
 }
 
+.email-input:focus {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
 .message-input {
   width: 360px;
   height: 80px;
   resize: none;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  padding: 8px 16px;
 }
 
 .form-label {
@@ -30,7 +53,6 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #2e2f42;
 }
 
 .submit-btn {
